@@ -27,7 +27,7 @@ Then run the docker image, specifying your settings as environment variables:
          -e AWS_KEY=myawskey \
          -e AWS_SECRET=myawssecret \
          -p 5000:5000 \
-         docker_registry_dynamodb
+         dlaidlaw/docker-registry-index-dynamodb
 
 This will pull the image from the docker hub.
 
